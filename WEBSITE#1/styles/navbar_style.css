@@ -1,0 +1,46 @@
+/* General Navbar Styling */
+.navbar {
+    background-color: #2e2e2e; /* Dark grey background for a professional look */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #f0f0f0 !important; /* Light grey for contrast against dark background */
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff !important; /* Accent color for branding */
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+    color: #f6ab0c !important; /* Highlight color on hover */
+}
+
+/* Highlight current page link */
+.nav-item.active .nav-link,
+.nav-link.active {
+    color: #f6ab0c !important;  /* Accent color for active page */
+    font-weight: bold;
+    border-bottom: 2px solid #f6ab0c; /* Subtle underline for the current page */
+}
+
+/* Dropdown Styling */
+.dropdown-menu {
+    background-color: #3a3a3a; /* Dark dropdown background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.dropdown-item {
+    color: #f0f0f0 !important; /* Light grey for items */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #474747 !important; /* Slightly lighter grey for hover effect */
+    color: #f6ab0c !important; /* Accent color on hover */
+}

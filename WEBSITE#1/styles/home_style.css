@@ -1,0 +1,10 @@
+.text-justify{
+    text-align:justify
+}
+
+.hero_img{
+    
+    background-image: url(../img/herosec_img.jpeg);
+    width: 100%;
+    height: auto;
+}
